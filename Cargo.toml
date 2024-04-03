@@ -3,7 +3,8 @@ name = "distributed-systems-abstractions-and-algorithms"
 version = "0.1.0"
 edition = "2021"
 
+[features]
+
 [dependencies]
 tokio = { version = "1.36.0", features = ["full"] }
 tokio-util = "0.7.10"
-uuid = { version = "1.7.0", features = ["rng", "std", "v1"] }
